@@ -31,6 +31,11 @@ namespace ContosoUniversity.Controllers
             return View(courses.ToList());
         }
 
+        public ActionResult Testing()
+        {
+            return View();
+        }
+
         // GET: Course/Details/5
         public ActionResult Details(int? id)
         {
